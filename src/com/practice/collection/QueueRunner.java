@@ -5,9 +5,9 @@ import java.util.*;
 public class QueueRunner {
 
     public static void main(String[] args) {
-        Queue<String> queue=new PriorityQueue(new QueueComparator());
+      /*  Queue<String> queue=new PriorityQueue(new QueueComparator());
         queue.addAll(List.of("Amar","Mandar","Abhijit"));
-        System.out.println("Original Queue : "+queue);
+        System.out.println("Original Queue : "+queue);*/
     }
 }
 

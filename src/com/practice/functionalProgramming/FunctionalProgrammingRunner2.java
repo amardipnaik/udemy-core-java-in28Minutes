@@ -1,11 +1,12 @@
 package com.practice.functionalProgramming;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class FunctionalProgrammingRunner2 {
 
     public static void main(String[] args) {
-        List<Integer> intLists = List.of(3, 4, 5, 5, 6, 7);
+        List<Integer> intLists = Arrays.asList(3, 4, 5, 5, 6, 7);
 
         //printBasic(intLists);
 

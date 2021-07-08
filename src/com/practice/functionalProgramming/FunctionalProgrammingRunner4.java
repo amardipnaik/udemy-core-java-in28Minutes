@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class FunctionalProgrammingRunner4 {
 
     public static void main(String[] args) {
-        List<Integer> numbers=List.of(3,4,5,6,7,2,1);
+        List<Integer> numbers= Arrays.asList(3,4,5,6,7,2,1);
 
         //printMin(numbers);
 
@@ -16,8 +16,8 @@ public class FunctionalProgrammingRunner4 {
     }
 
     private static void printEvenList(List<Integer> numbers) {
-        numbers.stream().filter(num->num%2==0).collect(Collectors.toList())
-                .stream().forEach(System.out::println);
+        numbers.stream().filter(num->num%2==0).collect(Collectors.toList()).
+                    forEach(System.out::println);
     }
 
     private static void printMax(List<Integer> numbers) {

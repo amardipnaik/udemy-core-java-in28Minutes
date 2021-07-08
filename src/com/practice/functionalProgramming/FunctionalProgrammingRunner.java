@@ -1,12 +1,12 @@
 package com.practice.functionalProgramming;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FunctionalProgrammingRunner {
 
     public static void main(String[] args) {
-        List<String> list = List.of("Apple", "Mango", "Banana", "Tango");
+        List<String> list = Arrays.asList("Apple", "Mango", "Banana", "Tango");
 
         printWithFunctionalProgrammingFilter(list);
     }

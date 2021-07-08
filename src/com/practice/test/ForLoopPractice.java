@@ -1,12 +1,13 @@
 package com.practice.test;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class ForLoopPractice {
 
     public static void main(String[] args) {
 
-        List<String> strings = List.of("men", "Women", "Animal", "Bird");
+        List<String> strings = Arrays.asList("men", "Women", "Animal", "Bird");
 
         strings.stream().
                 filter(element -> element.contains("men")).
